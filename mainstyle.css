@@ -5,6 +5,42 @@ h1, h2, h3, h4, h5, p, ul{
     font-family: Helvetica, sans-serif;
     color: #FFFFFF;
     text-align: center;
-
     list-style-type: none;
+    }
+
+.header{
+        border-bottom: 3px solid #A94F2A;
+        padding-bottom: 8px;
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+.second-header{
+        font-size: 17px;
+    }
+
+.bottombar{
+    background-color: #555555;
+    width: 800px;
+    margin:auto;
+    text-align: center;
+    }
+.bottombar a{
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    }
+.bottombar a:active{
+    color: #A94F2A;
+    background-color: #2A2A2A;
 }
+#navCurrent a:hover{
+    color: #a57967;
+    background-color: #2A2A2A;
+}
+.bottombar a:hover{
+    color: #a57967;
+    background-color: #2A2A2A;
+    }
