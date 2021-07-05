@@ -19,12 +19,22 @@
             h1, h2, p, ul, li{
                 font-family: Helvetica, sans-serif;
                 color: #FFFFFF;
-                text-align:center;
+                text-align: center;
             }
             img{
                 margin: auto;
                 display: block;
                 width: 800px;
+            }
+            li{
+                margin-bottom: 30px;
+                margin-top: 5px;
+            }
+            .selection:hover{
+                opacity: 0.5;
+            }
+            ul{
+                list-style-type: none;
             }
         </style>
     </head>
@@ -38,10 +48,10 @@
     <h2>Portfolio</h2>
 
     <ul>
-        <a href='portfolio/textgame.html'><img src= 'Images/Merc.png'></a><li>Text-Based Game</li>
-        <a href='portfolio/sketches.html'><img src= 'Images/leaning.jpg'></a><li>Drawings</li>
-        <a href='portfolio/video.html'><img src= 'Images/ZeldaVideo.png'></a><li>Video Animation</li>
-        <a href='portfolio/otherprojects.html'><img src='Images/daedricaxe.png'></a><li>Other Projects</li>
+        <a href='portfolio/textgame.html' div class='selection'><img src= 'Images/Merc.png'><li>Text-Based Game</li></a>
+        <a href='portfolio/sketches.html' div class='selection'><img src= 'Images/leaning.jpg'><li>Drawings</li></a>
+        <a href='portfolio/video.html' div class='selection'><img src= 'Images/ZeldaVideo.png'><li>Video Animation</li></a>
+        <a href='portfolio/otherprojects.html' div class='selection'><img src='Images/daedricaxe.png'><li>Other Projects</li></a>
     </ul>
 
      <a href='blog/home.html'><h2>Link To Blog</h2></a>
