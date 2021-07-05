@@ -1,0 +1,8 @@
+body{
+    background-color: #2A2A2A;
+    }
+h1, h2, p, ul{
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
