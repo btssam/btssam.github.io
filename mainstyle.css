@@ -1,7 +1,7 @@
 body{
     background-color: #2A2A2A;
     }
-@media (max-width: 500px) {
+@media screen (max-width: 1000px) {
     body {
         background-color: lightblue;
     }
@@ -28,16 +28,14 @@ a{
 
 .bottombar{
     background-color: #555555;
-    width: 800px;
+    width: 50%;
     margin:auto;
     text-align: center;
     }
 .bottombar a{
     display:inline-block;
-    width: 166.66px;
+    width: 30%;
     color: #FFFFFF;
-    padding-left: 33.33px;
-    padding-right: 33.33px;
     }
 .bottombar a:active{
     color: #A94F2A;
