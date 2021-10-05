@@ -29,19 +29,16 @@ a{
 
 .bottombar{
     background-color: #555555;
-    width: 1000px;
-    width: 100%;
+    width: 800px;
     margin:auto;
     text-align: center;
     }
 .bottombar a{
     display:inline-block;
-    width: 266.66px;
+    width: 166.66px;
     color: #FFFFFF;
     padding-left: 33.33px;
     padding-right: 33.33px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     }
 .bottombar a:active{
     color: #A94F2A;
