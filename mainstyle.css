@@ -36,6 +36,8 @@ a{
     display:inline-block;
     width: 30%;
     color: #FFFFFF;
+    padding-top: .5%;
+    padding-bottom: .5%;
     }
 .bottombar a:active{
     color: #A94F2A;
