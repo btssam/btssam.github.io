@@ -1,12 +1,11 @@
+body{
+    background-color: #2A2A2A;
+    }
 @media screen and (max-width: 500px) {
     body {
         background-color: lightblue;
     }
 }
-
-body{
-    background-color: #2A2A2A;
-    }
 h1, h2, h3, h4, h5, p, ul{
     font-family: Helvetica, sans-serif;
     color: #FFFFFF;
