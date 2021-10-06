@@ -79,10 +79,6 @@ p{
 
 @media screen and (max-width: 1000px) {
 
-    body {
-        background-color: red;
-    }
-
     .header{
         border-bottom: 2.4vh solid #A94F2A;
         padding-bottom: 3vh;
