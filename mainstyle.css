@@ -102,7 +102,8 @@ p{
         font-size: 3.6vw;
     }
     .bottombar{
-        font-size: 3.6vw;
+        width: 80%;
+        font-size: 3.4vw;
     }
     .selection img{
         width: 90vw;
