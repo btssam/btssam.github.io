@@ -14,8 +14,8 @@ a{
 }
 
 .header{
-    border-bottom: 0.4vw solid #A94F2A;
-    padding-bottom: 0.5vw;
+    border-bottom: 0.8vh solid #A94F2A;
+    padding-bottom: 1vh;
     font-size: 1.7vw;
     letter-spacing: 0.4vw;
 }
@@ -36,6 +36,20 @@ p{
     font-size: 0.8vw;
 }
 
+.selection img{
+    margin: auto;
+    display: block;
+    width: 52vw;
+    height: 55vh;
+}
+.selection:hover{
+    opacity: 0.5;
+}
+.selection p{
+    margin-bottom: 1.3vw;
+    margin-top: 0.3vw;
+}
+
 .bottombar{
     background-color: #555555;
     width: 50%;
@@ -47,8 +61,8 @@ p{
     display:inline-block;
     width: 30%;
     color: #FFFFFF;
-    padding-top: .5%;
-    padding-bottom: .5%;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
 }
 .bottombar a:active{
     color: #A94F2A;
@@ -70,29 +84,37 @@ p{
     }
 
     .header{
-        border-bottom: 0.8vw solid #A94F2A;
-        padding-bottom: 1vw;
-        font-size: 3.4vw;
-        letter-spacing: 0.8vw;
+        border-bottom: 2.4vh solid #A94F2A;
+        padding-bottom: 3vh;
+        font-size: 5.1vw;
+        letter-spacing: 1.2vw;
     }
 
     .second-header{
-        font-size: 1.8vw;
+        font-size: 2.7vw;
     }
     h2{
-        font-size: 2.4vw;
+        font-size: 3.6vw;
     }
     h3{
-        font-size: 1.8vw;
+        font-size: 2.7vw;
     }
     h4{
-        font-size: 1.6vw;
+        font-size: 2.4vw;
     }
     p{
-        font-size: 1.6vw;
+        font-size: 2.4vw;
     }
     .bottombar{
-        font-size: 1.6vw;
+        font-size: 2.4vw;
+    }
+    .selection img{
+        width: 90vw;
+        height: 120vh;
+    }
+    .selection p{
+        margin-bottom: 3.6vw;
+        margin-top: 0.9vw;
     }
 
 }
