@@ -1,36 +1,49 @@
 body{
     background-color: #2A2A2A;
     }
+
 @media (max-width: 1000px) {
     body {
         background-color: red;
     }
 }
+
 h1, h2, h3, h4, h5, p, ul{
     font-family: Helvetica, sans-serif;
     color: #FFFFFF;
     text-align: center;
     list-style-type: none;
     }
+
 a{
     text-decoration: none;
 }
 
 .header{
-        border-bottom: 3px solid #A94F2A;
-        padding-bottom: 8px;
-        font-size: 26px;
-        letter-spacing: 3px;
+    border-bottom: 0.4vw solid #A94F2A;
+    padding-bottom: 0.5vw;
+    font-size: 1.7vw;
+    letter-spacing: 0.4vw;
     }
+    
 .second-header{
-        font-size: 17px;
+    font-size: 0.9vw;
     }
+
+h2{
+    font-size: 1.2vw;
+}
+
+p{
+    font-size: 0.8vw;
+}
 
 .bottombar{
     background-color: #555555;
     width: 50%;
     margin:auto;
     text-align: center;
+    font-size: 0.8vw;
     }
 .bottombar a{
     display:inline-block;
