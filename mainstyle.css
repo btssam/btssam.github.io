@@ -1,0 +1,139 @@
+/* General Styling */
+body{
+    background-color: #2A2A2A;
+}
+
+h1, h2, h3, h4, h5, p, ul{
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    list-style-type: none;
+}
+
+h2{
+    font-size: 2.2vw;
+}
+h3{
+    font-size: 0.9vw;
+}
+h4{
+    font-size: 0.8vw;
+}
+h5{
+    font-size: 0.7vw;
+}
+p{
+    font-size: 0.8vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    border-bottom: 0.75vh solid #A94F2A;
+    font-size: 1.7vw;
+    letter-spacing: 0.4vw;
+    line-height: 0%;
+    padding-top: 1vh;
+}
+    
+.second-header h2{
+    font-size: 1.1vw;
+}
+
+.header h1:hover{
+    color: #a57967;
+}
+
+.header h1:active{
+    color: #A94F2A;
+}
+
+/* Bottom Nav Bar */
+.bottombar{
+    margin-top: 5vh;
+    background-color: #555555;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 0.8vw;
+}
+.bottombar a{
+    display:inline-block;
+    width: 30%;
+    color: #FFFFFF;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.bottombar a:active{
+    color: #A94F2A;
+    background-color: #2A2A2A;
+}
+.bottombar a:hover{
+    color: #a57967;
+    background-color: #2A2A2A;
+}
+.bottombar .navCurrent{
+    background-color: #2A2A2A;
+    color: #A94F2A;
+}
+
+/*links*/
+.link-button{
+    background-color:#555555;
+    margin: auto;
+    width: 8vw;
+    border: .05vh solid white;
+}
+.link-button a h4:hover{
+    color: #a57967;
+}
+
+.link-button a h4:active{
+    color: #A94F2A;
+}
+
+/* For smaller screens (mobile) */
+@media screen and (max-width: 1000px) {
+
+    @media screen and (orientation:portrait) {
+
+        .header{
+            border-bottom: 1.1vh solid #A94F2A;
+            font-size: 5.8vw;
+            letter-spacing: 0.6vw;
+        }
+        .second-header h2{
+            font-size: 2.8vw;
+        }
+        h2{
+            font-size: 5.8vw;
+        }
+        h3{
+            font-size: 4.1vw;
+        }
+        h4{
+            font-size: 3.6vw;
+        }
+        h5{
+            font-size:1.2vw;
+        }
+        p{
+            font-size: 3.6vw;
+        }
+        .bottombar{
+            width: 80%;
+            font-size: 3.4vw;
+        }
+        .link-button{
+            width: 25vw;
+            border: .1vh solid white;
+            margin-bottom: 5vw;
+        }
+
+    }
+
+}

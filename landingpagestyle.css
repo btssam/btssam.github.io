@@ -1,0 +1,38 @@
+/* Selections */
+.selection img{
+    margin: auto;
+    display: block;
+    width: 52vw;
+    height: 52.5vh;
+}
+.selection a:hover{
+    opacity: 0.5;
+}
+.selection p{
+    margin-bottom: 1.3vw;
+    margin-top: 0.3vw;
+}
+.selection a{
+    width: 52vw;
+    height: 52.5vh + 0.8vw;
+    margin: auto;
+    display: block;
+}
+
+/* For smaller screens (mobile) */
+@media screen and (max-width: 1000px) {
+
+.selection img{
+    width: 90vw;
+    height: 60vh;
+}
+.selection a{
+    width: 90vw;
+    height: 60vh + 3.6vw;
+}
+.selection p{
+    margin-bottom: 5.4vw;
+    margin-top: 1.8vw;
+}
+
+}
